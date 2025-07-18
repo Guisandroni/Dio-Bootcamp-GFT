@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        AccountBank firstAccount = new AccountBank(12,"Joao da Silva",0);
+        AccountBank firstAccount = new AccountBank(12,"Joao da Silva",1000, 0 );
         Scanner scanner  = new Scanner(System.in);
 
         boolean optionsLoop = true ;
@@ -34,6 +34,7 @@ public class Main {
 
                 case 2:
                     System.out.println("Consultando cheque especial \n");
+                    firstAccount.showspecialCheck();
                     break;
 
                 case 3:
@@ -48,6 +49,16 @@ public class Main {
                     System.out.println("Informe o valor a ser sacado:");
                     double valueWithdraw = scanner.nextDouble();
                     firstAccount.withdraw(valueWithdraw);
+                    break;
+                case 5:
+                    System.out.println("Metodo para pagar boleto");
+                    System.out.println("Informe o valor do boleto");
+                    double valuePayBill = scanner.nextDouble();
+                    firstAccount.payBill(valuePayBill);
+                    break;
+                case 6:
+                    System.out.printf("Consultando se esta usando cheque especial");
+                    firstAccount.specialCheckConsultation();
                     break;
                 case 0:
                     System.out.println("Saindo da conta");
