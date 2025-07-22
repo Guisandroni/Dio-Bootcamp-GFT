@@ -14,7 +14,12 @@ public class Main {
 
         System.out.printf( manager.getName() + "\n" + manager.getLogin() + "\n" + manager.getPassword());
 
+        printEmployee();
+    }
 
+    public static void printEmployee(){
+        System.out.println("teste employee");
     }
 
 }
+
