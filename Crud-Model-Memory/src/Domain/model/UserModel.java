@@ -1,4 +1,4 @@
-package Domain;
+package Domain.model;
 
 import java.time.OffsetDateTime;
 import java.util.Objects;

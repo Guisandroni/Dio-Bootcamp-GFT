@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
-
 public interface MusicPlayer {
+
+
+
+    void playMusic();
+    void stopMusic();
 }

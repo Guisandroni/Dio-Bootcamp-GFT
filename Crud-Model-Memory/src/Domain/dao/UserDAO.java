@@ -1,4 +1,7 @@
-package Domain;
+package Domain.dao;
+
+import Domain.model.UserModel;
+import Domain.exception.UsetNotFoundException;
 
 import java.util.ArrayList;
 import java.util.List;
