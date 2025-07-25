@@ -1,4 +1,4 @@
-package main.java.search;
+package main.java.list.search;
 
 import java.util.Locale;
 

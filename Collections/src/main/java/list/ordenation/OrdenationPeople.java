@@ -1,8 +1,6 @@
-package main.java.ordenation;
+package main.java.list.ordenation;
 
-import javax.print.attribute.standard.JobOriginatingUserName;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 

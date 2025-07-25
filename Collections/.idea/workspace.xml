@@ -5,21 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb3bf072-6292-48bb-b7ef-91e62358f0b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ordenation/OrdenationPeople.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ordenation/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays and Lists/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays and Lists/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/basicsOperation/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/basicsOperation/SetOfGuests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/basicsOperation/SetWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/basicsOperation/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/ordenation/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/ordenation/RegisterProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/search/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/search/ContactList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/search/ListTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/search/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/set/search/lesson" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/basicsOperation/listTask/ListTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/basicsOperation/listTask/ListTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/basicsOperation/listTask/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/basicsOperation/listTask/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/basicsOperation/shoppingCart/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/basicsOperation/shoppingCart/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/basicsOperation/shoppingCart/items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/basicsOperation/shoppingCart/items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/search/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/search/BookCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search/BookCatalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Crud-Model-Memory/src/Domain/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Crud-Model-Memory/src/Domain/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Crud-Model-Memory/src/Domain/exception/UsetNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Crud-Model-Memory/src/Domain/exception/UsetNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Crud-Model-Memory/src/Domain/model/MenuOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Crud-Model-Memory/src/Domain/model/MenuOption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Crud-Model-Memory/src/Domain/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Crud-Model-Memory/src/Domain/model/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interfaces/src/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interfaces/src/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ordenation/OrdenationPeople.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/ordenation/OrdenationPeople.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ordenation/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/ordenation/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/search/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search/BookCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/search/BookCatalog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +54,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BookCatalog.executor": "Run",
+    "Application.ContactList.executor": "Run",
     "Application.ListTask.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.OrdenationPeople.executor": "Run",
+    "Application.SetOfGuests.executor": "Run",
     "Application.items.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -75,13 +78,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OrdenationPeople">
+  <component name="RunManager" selected="Application.ContactList">
     <configuration name="BookCatalog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.search.BookCatalog" />
+      <option name="MAIN_CLASS_NAME" value="main.java.list.basicsOperation.search.BookCatalog" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.search.*" />
+          <option name="PATTERN" value="main.java.list.basicsOperation.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.list.basicsOperation.listTask.ListTask" />
+    <configuration name="ContactList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.search.ContactList" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.list.basicsOperation.listTask.*" />
+          <option name="PATTERN" value="main.java.set.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +106,24 @@
       </method>
     </configuration>
     <configuration name="OrdenationPeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.ordenation.OrdenationPeople" />
+      <option name="MAIN_CLASS_NAME" value="main.java.list.basicsOperation.ordenation.OrdenationPeople" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.ordenation.*" />
+          <option name="PATTERN" value="main.java.list.basicsOperation.ordenation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetOfGuests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.set.basicsOperation.SetOfGuests" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.set.basicsOperation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,10 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContactList" />
+        <item itemvalue="Application.SetOfGuests" />
         <item itemvalue="Application.OrdenationPeople" />
         <item itemvalue="Application.BookCatalog" />
         <item itemvalue="Application.items" />
-        <item itemvalue="Application.ListTask" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +174,7 @@
       <workItem from="1753387895066" duration="3301000" />
       <workItem from="1753450622187" duration="1839000" />
       <workItem from="1753461956176" duration="604000" />
-      <workItem from="1753462586928" duration="1144000" />
+      <workItem from="1753462586928" duration="10445000" />
     </task>
     <servers />
   </component>
@@ -174,16 +191,16 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/list/basicsOperation/listTask/ListTask.java</url>
           <line>56</line>
-          <properties class="main.java.list.basicsOperation.listTask.ListTask" method="main">
+          <properties class="main.java.list.basicsOperation.listTask.ListTask">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/ordenation/OrdenationPeople.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/list/ordenation/OrdenationPeople.java</url>
           <line>36</line>
-          <properties class="main.java.ordenation.OrdenationPeople" method="main">
+          <properties class="main.java.list.ordenation.OrdenationPeople">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
